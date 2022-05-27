@@ -58,7 +58,9 @@ export const PostFullInfo: FC = () => {
 
         <Modal isOpenModal={isOpenModal} onBlur={setIsOpenModal} id={Number(id)} />
 
-        {!isOpenModal && <Button name="Add Comment" callback={onOpenModalClick} />}
+        {!isOpenModal && (
+          <Button name="Добавить комментарий" callback={onOpenModalClick} />
+        )}
       </div>
     </section>
   );
