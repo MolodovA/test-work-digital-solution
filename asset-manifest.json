@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/test-work-digital-solution/static/css/main.7960be7e.css",
+    "main.js": "/test-work-digital-solution/static/js/main.e069705e.js",
+    "static/js/787.4b1f0af1.chunk.js": "/test-work-digital-solution/static/js/787.4b1f0af1.chunk.js",
+    "static/media/bg.jpg": "/test-work-digital-solution/static/media/bg.dde58efe4264a0a4767d.jpg",
+    "index.html": "/test-work-digital-solution/index.html",
+    "main.7960be7e.css.map": "/test-work-digital-solution/static/css/main.7960be7e.css.map",
+    "main.e069705e.js.map": "/test-work-digital-solution/static/js/main.e069705e.js.map",
+    "787.4b1f0af1.chunk.js.map": "/test-work-digital-solution/static/js/787.4b1f0af1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7960be7e.css",
+    "static/js/main.e069705e.js"
+  ]
+}
