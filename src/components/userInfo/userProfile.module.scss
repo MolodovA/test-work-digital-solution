@@ -1,0 +1,50 @@
+.userProfile {
+  padding: 35px 0;
+
+  .container {
+    max-width: 1030px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .posts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .mainInfo {
+
+    margin-bottom: 1rem;
+
+    .userName {
+      font-weight: 500;
+      font-size: 2rem;
+      color: #000;
+      margin-bottom: 0.7rem;
+    }
+  }
+
+  .title {
+    font-weight: 500;
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 0.7rem;
+  }
+
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    li {
+      padding: 10px 20px;
+      border-bottom: 1px solid #000000;
+
+      &:last-child {
+        border-right: none;
+      }
+    }
+  }
+}

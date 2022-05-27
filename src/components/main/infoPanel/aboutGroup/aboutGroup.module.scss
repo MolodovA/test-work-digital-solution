@@ -1,0 +1,33 @@
+.aboutGroup {
+  padding: 35px 0;
+  @media (max-width: 992px) {
+    padding: 25px 0;
+  }
+  @media (max-width: 767px) {
+    padding:  0 0 20px;
+  }
+
+  .row {
+    display: flex;
+    @media (max-width: 992px) {
+      flex-direction: column;
+    }
+    .column {
+      flex: 1 1 auto;
+    }
+    .columnS {
+      flex: 0 0 160px;
+      @media (max-width: 992px) {
+       flex: 0 1 100%
+      }
+      .title {
+        font-size: 2rem;
+        color: #000000;
+        @media (max-width: 767px) {
+          font-size: 1.5rem;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}

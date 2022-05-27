@@ -1,0 +1,50 @@
+.header {
+  background-color: #101010;
+
+  .row {
+    display: flex;
+    min-height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1030px;
+    margin: 0 auto;
+    padding: 0 15px;
+    @media (max-width: 767px) {
+      min-height: 50px;
+    }
+
+    .logo {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #fff;
+      text-transform: uppercase;
+      @media (max-width: 767px) {
+        font-size: 1.3rem;
+        font-weight: 500;
+
+      }
+      @media (max-width: 480px) {
+        font-size: 1rem;
+      }
+    }
+
+    .buttons {
+      display: flex;
+
+      button {
+        background: #FFFFFF;
+        color: #000000;
+        font-weight: 600;
+        padding: 0 40px;
+        @media (max-width: 767px) {
+          padding: 0 10px;
+          height: 30px;
+        }
+        @media (max-width: 480px) {
+          font-size: 0.5rem;
+
+        }
+      }
+    }
+  }
+}

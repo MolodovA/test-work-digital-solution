@@ -1,0 +1,41 @@
+
+.post {
+  padding: 14px 35px;
+  border: 1px solid #000000;
+  flex: 0 1 32.2%;
+  @media (max-width: 992px) {
+    flex: 0 1 47%;
+  }
+  @media (max-width: 992px) {
+    flex: 0 1 100%;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  .title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 5px;
+  }
+
+  .text {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 1rem;
+  }
+}
+
+.post.postAll {
+  margin-right: 0;
+  margin-bottom: 1rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
